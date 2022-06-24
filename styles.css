@@ -1,0 +1,149 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #61656d;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  margin-top: 27px;
+  margin-bottom: 21px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 20px 26px 12px 27px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #ff6a28;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sub-title {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.image {
+  margin-top: 14px;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 85px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.info-text {
+  text-transform: uppercase;
+  margin-top: 4.86px;
+}
+
+.info-strong-text {
+  color: #ff6a28;
+  margin-top: 6px;
+}
+
+.info-author-box {
+  background-color: #f0f0f0;
+  width: 238px;
+  height: 85px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.name-box {
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  color: #ff6a28;
+  font-weight: 700;
+}
+
+.record-date {
+  margin-top: 5px;
+}
+
+.list-box {
+  margin-top: 16px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 20px 30px 27px;
+  box-sizing: border-box;
+}
+
+.list-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+h3,
+h4 {
+  margin-left: 8px;
+  margin-bottom: 2px;
+}
+.ingredient {
+  margin-top: 10px;
+}
+
+.instruction-margin-smaller{
+  margin-top: 16px;
+}
+
+.instruction-margin-larger{
+  margin-top: 20px;
+}
+
+.additional-information-box {
+  margin-top: 16px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 15px 0 21px 22px;
+  box-sizing: border-box;
+}
+
+.additional-information-title {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
